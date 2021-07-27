@@ -2,7 +2,7 @@ package katas
 
 import munit.FunSuite
 
-class ExesAndOhsTest extends FunSuite {
+class XOTest extends FunSuite {
 
   test("should return false for single x") {
     assertEquals(ExesAndOhs.xo("x"), false)

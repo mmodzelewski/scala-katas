@@ -2,7 +2,7 @@ package katas
 
 import munit.FunSuite
 
-class KataTest extends FunSuite {
+class CharactersCountsTest extends FunSuite {
 
   test("should return empty map for an empty string") {
     assertEquals(Kata.count(""), Map.empty)
